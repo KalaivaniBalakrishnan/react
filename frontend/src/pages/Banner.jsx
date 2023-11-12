@@ -21,11 +21,11 @@ const Banner = () => {
             itemClass="carousel-item-padding-40-px"
         >
             {bannerData.map((image) => (
-                <Image src={image.url} alt={image.alt} key={image._id} />
+                <Image src={'https://images.squarespace-cdn.com/content/v1/5bdc80984cde7aec2e94e22d/1597510714985-X4NQ773QUI0FA1T9CYJS/From+Victoria+shop'} alt={image.alt} key={image._id} />
             ))}
         </Carousel>
     );
-};
+}
 
 export default Banner;
 

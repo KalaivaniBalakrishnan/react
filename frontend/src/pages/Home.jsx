@@ -73,19 +73,11 @@ const Home = () => {
           ) : (
             <>
               <Component>
-                <LeftComponent>
-                  <Slide products={productData} title="Top Selection" />
-                </LeftComponent>
-
-                <RightComponent>
-                  <img src={adURL} alt="" style={{ width: 217 }} />
-                </RightComponent>
+               
               </Component>
 
               <Slide products={productData} title="Deals of the Day" />
-              <Slide products={productData} title="Suggested Items" />
-              <Slide products={productData} title="Discounts for You" />
-              <Slide products={productData} title="Recommended Items" />
+             
             </>
           )}
         </>
