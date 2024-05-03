@@ -64,7 +64,7 @@ const Home = () => {
             <>
               <StyledContainer>No products found right now</StyledContainer>
               <StyledContainer>
-                Become a seller to add products
+                Become a admin to add products
                 <Link to={"/Sellerregister"}>
                   Join
                 </Link>
