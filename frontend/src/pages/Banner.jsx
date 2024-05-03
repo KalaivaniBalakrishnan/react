@@ -21,7 +21,16 @@ const Banner = () => {
             itemClass="carousel-item-padding-40-px"
         >
             {bannerData.map((image) => (
-                <Image src={'https://images.squarespace-cdn.com/content/v1/5bdc80984cde7aec2e94e22d/1597510714985-X4NQ773QUI0FA1T9CYJS/From+Victoria+shop'} alt={image.alt} key={image._id} />
+                <Image src={'//www.maharajarice.com/wp-content/uploads/2022/07/banner2.jpg'} alt={image.alt} key={image._id} />
+            ))}
+            {bannerData.map((image) => (
+                <Image src={'//www.maharajarice.com/wp-content/uploads/2022/07/banner4.jpg'} alt={image.alt} key={image._id} />
+            ))}
+             {bannerData.map((image) => (
+                <Image src={'//maharajarice.com/wp-content/uploads/2021/10/banner2-1.jpg'} alt={image.alt} key={image._id} />
+            ))}
+             {bannerData.map((image) => (
+                <Image src={'//www.maharajarice.com/wp-content/uploads/2022/07/banner1.jpg'} alt={image.alt} key={image._id} />
             ))}
         </Carousel>
     );
