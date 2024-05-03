@@ -26,7 +26,7 @@ const Search = () => {
     return (
         <SearchContainer>
             <InputSearchBase
-                placeholder="Search for plants and more"
+                placeholder="Search for rice packets"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 onKeyDown={(e) => {
