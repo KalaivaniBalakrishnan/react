@@ -11,7 +11,7 @@ const Banner = () => {
             responsive={responsive}
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={4000}
+            autoPlaySpeed={2000}
             keyBoardControl={true}
             showDots={true}
             slidesToSlide={1}
@@ -56,7 +56,7 @@ const responsive = {
 
 const Image = styled('img')(({ theme }) => ({
     width: '100%',
-    height: 310,
+    height: 550,
     [theme.breakpoints.down('sm')]: {
         objectFit: 'cover',
         height: 180,
