@@ -133,7 +133,7 @@ const Navbar = () => {
                                 duration={500}
                                 onClick={homeHandler}
                             >
-                                PLANTSHOP
+                                MAHARAJHA RICE
                             </NavLogo>
                         </Typography>
                     </HomeContainer>
@@ -214,7 +214,7 @@ const Navbar = () => {
                             >
                                 <LocalMallIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
 
-                                PLANTSTORE
+                                MAHARAJHA RICE
                             </NavLogo>
                         </Typography>
                     </HomeContainer>
