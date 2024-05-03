@@ -91,7 +91,7 @@ const SellerDashboard = () => {
                             >
                                 <LocalMallIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
 
-                                PLANTSTORE
+                                MAHARAJHA RICE
                             </NavLogo>
                         </Typography>
 
