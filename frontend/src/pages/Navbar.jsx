@@ -222,7 +222,7 @@ const Navbar = () => {
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, }}>
                         <Search />
                         <ProductsMenu dropName="Categories" />
-                        <ProductsMenu dropName="Products" />
+                        
                     </Box>
 
                     {currentRole === null &&
